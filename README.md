@@ -53,7 +53,11 @@ BETWEEN works in this case because it is an inclusive operator, meaning it inclu
 
 **Objective:** Retrieve employee information from the employees table, filtering for department = 'Marketing' AND office_location LIKE 'East%'.
 
-Using AND Operator:
-The AND operator allows us to string together multiple conditions, ensuring that all specified conditions are met for a result to be returned.
-
 SQL Query:
+
+AND  
+![image](https://github.com/user-attachments/assets/df700e17-1674-497a-b7ea-8184e0f3e426)  
+When we want to filter results that match two conditions, the 'AND' operator allows us to string together more than one condition, such as a department filter and an office filter.
+
+### 
+
