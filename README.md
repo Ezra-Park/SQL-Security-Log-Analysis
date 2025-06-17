@@ -53,11 +53,30 @@ BETWEEN works in this case because it is an inclusive operator, meaning it inclu
 
 **Objective:** Retrieve employee information from the employees table, filtering for department = 'Marketing' AND office_location LIKE 'East%'.
 
-SQL Query:
+**SQL Query:**
 
 AND  
 ![image](https://github.com/user-attachments/assets/df700e17-1674-497a-b7ea-8184e0f3e426)  
 When we want to filter results that match two conditions, the 'AND' operator allows us to string together more than one condition, such as a department filter and an office filter.
 
-### 
+### 5. Retrieve Employees from Specific Departments (Inclusion)
 
+**Scenario:** Our team needs to perform a targeted security update for employees in either the Finance or Sales departments.
+
+**Objective:** Locate information on all employees whose department is either 'Finance' or 'Sales' from the employees table.
+
+**SQL Query:**
+
+OR  
+![image](https://github.com/user-attachments/assets/7e42d8f1-ef97-4b60-9952-a5c4d12e24f2)
+
+### 6. Retrieve All Employees NOT in a Specific Department (Exclusion)
+
+**Scenario:** A specific security update has already been applied to employee computers in the IT department. We now need to gather information on all other employees to schedule their updates.
+
+**Objective:** Exclude employees from the 'Information Technology' department from the employees table. This can be achieved using various exclusion operators.
+
+Using <> Operator:
+The <> operator means "not equal to".
+
+SQL Query (&lt;>):
