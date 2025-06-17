@@ -18,13 +18,8 @@ The primary objective is to showcase how various SQL operators and clauses can b
 
 **SQL Query:**
 
+![image](https://github.com/user-attachments/assets/8055052f-f984-47de-b04e-4bf1ac0ae03c)
 
-<img src="https://github.com/user-attachments/assets/31dbad1b-8a87-4929-9966-13bb3ecf0fbc" alt="image" width="800"/>
-
--- Example SQL query to retrieve after-hours failed login attempts
-SELECT *
-FROM log_in_attempts
-WHERE time > '18:00:00' AND success = 0;
 
 ### 2. Retrieve Login Attempts on Specific Dates
 
@@ -34,10 +29,10 @@ WHERE time > '18:00:00' AND success = 0;
 
 **SQL Query:**
 
-OR
-![image](https://github.com/user-attachments/assets/b68b4c39-06b5-40b1-956a-8debe7df4368)
+OR 
+![image](https://github.com/user-attachments/assets/b68b4c39-06b5-40b1-956a-8debe7df4368)  
 OR allows us to search for data that matches either condition mentioned above.
 
-BETWEEN
-![image](https://github.com/user-attachments/assets/efc08d97-cc56-43ad-a088-9a9d3c96e2a9)
+BETWEEN  
+![image](https://github.com/user-attachments/assets/efc08d97-cc56-43ad-a088-9a9d3c96e2a9)  
 BETWEEN works in this case because it is an inclusive operator, meaning it includes the dates that we are using to filter. 
