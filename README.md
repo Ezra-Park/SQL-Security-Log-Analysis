@@ -29,7 +29,7 @@ The primary objective is to showcase how various SQL operators and clauses can b
 
 **SQL Query:**
 
-OR 
+OR  
 ![image](https://github.com/user-attachments/assets/b68b4c39-06b5-40b1-956a-8debe7df4368)  
 OR allows us to search for data that matches either condition mentioned above.
 
