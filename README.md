@@ -93,4 +93,4 @@ In these examples, we've navigated through simulated databases to return desired
 
 ## 🤝 Connect
 
-Feel free to connect with me on LinkedIn if you have any questions or feedback.
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/ezra-park-779325330/) if you have any questions or feedback.
