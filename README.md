@@ -18,7 +18,7 @@ The primary objective is to showcase how various SQL operators and clauses can b
 
 **SQL Query:**
 
-```sql
+
 ![image](https://github.com/user-attachments/assets/31dbad1b-8a87-4929-9966-13bb3ecf0fbc)
 
 -- Example SQL query to retrieve after-hours failed login attempts
