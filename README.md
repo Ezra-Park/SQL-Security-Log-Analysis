@@ -19,9 +19,25 @@ The primary objective is to showcase how various SQL operators and clauses can b
 **SQL Query:**
 
 
-![image](https://github.com/user-attachments/assets/31dbad1b-8a87-4929-9966-13bb3ecf0fbc)
+<img src="https://github.com/user-attachments/assets/31dbad1b-8a87-4929-9966-13bb3ecf0fbc" alt="image" width="800"/>
 
 -- Example SQL query to retrieve after-hours failed login attempts
 SELECT *
 FROM log_in_attempts
 WHERE time > '18:00:00' AND success = 0;
+
+### 2. Retrieve Login Attempts on Specific Dates
+
+**Scenario:** A suspicious event was reported on '2022-05-09'. We need to retrieve all login attempts that occurred on this specific day and the day immediately preceding it to understand the full context of activity.
+
+**Objective:** Gather login attempt data for '2022-05-09' and '2022-05-08' from the log_in_attempts table. This can be achieved using either the OR operator or the BETWEEN operator in the WHERE clause.
+
+**SQL Query:**
+
+OR
+![image](https://github.com/user-attachments/assets/b68b4c39-06b5-40b1-956a-8debe7df4368)
+OR allows us to search for data that matches either condition mentioned above.
+
+BETWEEN
+![image](https://github.com/user-attachments/assets/efc08d97-cc56-43ad-a088-9a9d3c96e2a9)
+BETWEEN works in this case because it is an inclusive operator, meaning it includes the dates that we are using to filter. 
