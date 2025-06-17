@@ -87,3 +87,10 @@ OR
 NOT  
 ![image](https://github.com/user-attachments/assets/a9734ddd-e56b-47e0-bb50-ecdc6d56fa7a)
 
+## 💡 Summary
+
+In these examples, we've navigated through simulated databases to return desired information based on specific conditions relevant to cybersecurity investigations. The effective use of SQL operators (e.g., AND, OR, BETWEEN, LIKE, NOT) and a foundational understanding of basic SQL query components (SELECT, FROM, WHERE) are critical tools. These skills enable cybersecurity professionals to discern relevant information quickly and thoroughly, supporting threat detection, incident response, and security posture management.
+
+## 🤝 Connect
+
+Feel free to connect with me on LinkedIn if you have any questions or feedback.
