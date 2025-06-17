@@ -76,7 +76,14 @@ OR
 
 **Objective:** Exclude employees from the 'Information Technology' department from the employees table. This can be achieved using various exclusion operators.
 
-Using <> Operator:
-The <> operator means "not equal to".
+**SQL Query:**
 
-SQL Query (&lt;>):
+<>  
+![image](https://github.com/user-attachments/assets/58b93a5d-bd0c-4f23-8bed-3cf444b5055a)
+
+!=  
+![image](https://github.com/user-attachments/assets/65ee8220-cc57-4d67-9456-d16bbd04a9c7)
+
+NOT  
+![image](https://github.com/user-attachments/assets/a9734ddd-e56b-47e0-bb50-ecdc6d56fa7a)
+
