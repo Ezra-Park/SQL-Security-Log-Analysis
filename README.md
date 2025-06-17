@@ -36,3 +36,24 @@ OR allows us to search for data that matches either condition mentioned above.
 BETWEEN  
 ![image](https://github.com/user-attachments/assets/efc08d97-cc56-43ad-a088-9a9d3c96e2a9)  
 BETWEEN works in this case because it is an inclusive operator, meaning it includes the dates that we are using to filter. 
+
+### 3. Retrieve Login Attempts from Specific Geos (Exclusion)
+
+**Scenario:** Our team is investigating login attempts that did not originate from our primary operating country, Mexico, as these could represent external threats or policy violations.
+
+**Objective:** Filter the log_in_attempts table to exclude all results where the country field starts with 'MEX'. The LIKE operator with the wildcard % helps to filter out variations such as 'MEX' or 'MEXICO'.
+
+**SQL Query:**
+
+![image](https://github.com/user-attachments/assets/c49f2ff8-4f3c-4002-b6ac-1f85a464c6d7)
+
+### 4. Filter Employee Data for Specific Departments and Locations
+
+**Scenario:** We need to identify employees in the Marketing department who are located in any of our 'East' office buildings to coordinate a specific security update. This requires combining multiple conditions.
+
+**Objective:** Retrieve employee information from the employees table, filtering for department = 'Marketing' AND office_location LIKE 'East%'.
+
+Using AND Operator:
+The AND operator allows us to string together multiple conditions, ensuring that all specified conditions are met for a result to be returned.
+
+SQL Query:
