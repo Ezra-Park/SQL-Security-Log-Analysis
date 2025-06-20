@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-This project demonstrates the application of Structured Query Language (SQL) for investigating potential security issues by efficiently retrieving relevant information from large datasets. SQL is a critical skill for cybersecurity professionals, enabling quick and thorough analysis of logs and other structured data to identify anomalies, track suspicious activity, and support incident response efforts.
+This project demonstrates the application of Structured Query Language (SQL) for investigating potential security issues by efficiently retrieving relevant information from large datasets. SQL enables quick and thorough analysis of logs and other structured data to identify anomalies, track suspicious activity, and support incident response efforts.
 
 ## Scenario & Objective
 
-The primary objective is to showcase how various SQL operators and clauses can be used to filter and extract specific records from simulated security-related databases, mirroring tasks performed in a Security Operations Center (SOC) or IT security role. We'll explore common filtering needs across different tables like `log_in_attempts` and `employees`.
+The primary objective is to showcase that SQL operators and clauses can be used to filter and extract specific records from simulated security-related databases, mirroring tasks performed in a Security Operations Center (SOC) or IT security role. We use sample tables such as `log_in_attempts` and `employees` to show demonstrate common filtering needs.
 
 ## Query Examples & Demonstrations
 
