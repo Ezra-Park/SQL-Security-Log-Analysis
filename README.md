@@ -1,14 +1,14 @@
 # SQL Security Log Analysis: Applying Filters to Queries
 
-## 🎯 Project Overview
+## Project Overview
 
 This project demonstrates the application of Structured Query Language (SQL) for investigating potential security issues by efficiently retrieving relevant information from large datasets. SQL is a critical skill for cybersecurity professionals, enabling quick and thorough analysis of logs and other structured data to identify anomalies, track suspicious activity, and support incident response efforts.
 
-## ☁️ Scenario & Objective
+## Scenario & Objective
 
 The primary objective is to showcase how various SQL operators and clauses can be used to filter and extract specific records from simulated security-related databases, mirroring tasks performed in a Security Operations Center (SOC) or IT security role. We'll explore common filtering needs across different tables like `log_in_attempts` and `employees`.
 
-## 🧠 Query Examples & Demonstrations
+## Query Examples & Demonstrations
 
 ### 1. Retrieve After-Hours Failed Login Attempts
 
@@ -87,10 +87,10 @@ OR
 NOT  
 ![image](https://github.com/user-attachments/assets/a9734ddd-e56b-47e0-bb50-ecdc6d56fa7a)
 
-## 💡 Summary
+## Summary
 
 In these examples, we've navigated through simulated databases to return desired information based on specific conditions relevant to cybersecurity investigations. The effective use of SQL operators (e.g., AND, OR, BETWEEN, LIKE, NOT) and a foundational understanding of basic SQL query components (SELECT, FROM, WHERE) are critical tools. These skills enable cybersecurity professionals to discern relevant information quickly and thoroughly, supporting threat detection, incident response, and security posture management.
 
-## 🤝 Connect
+## Connect
 
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/ezra-park-779325330/) if you have any questions or feedback.
